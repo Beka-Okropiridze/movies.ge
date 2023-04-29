@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 export const Header = () => {
 
-  const [darkMode, setDarkMode] = useState( JSON.parse(localStorage.getItem("darkModei")) || false);
+  const [darkMode, setDarkMode] = useState( JSON.parse(localStorage.getItem("darkModei")) || true);
   const [ hiden, setHidden ] = useState(false);
   const navigate = useNavigate();
 
